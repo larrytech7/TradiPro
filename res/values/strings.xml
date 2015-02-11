@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nos Langues</string>
+    <string name="lang_editText">Edit/Add Translation</string>
+    <string name="action_editprofile">Manage Profile</string>
+    <string name="intro_text">Traduction Locale. Ver 0.5</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="or">OR</string>
+    <string name="signup">Sign Up/ S\'inscrire</string>
+    <string name="title_activity_signup">Register</string>
+    <string name="username">Enter a Username</string>
+    <string name="fullname">Enter Full Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="translated">Translated to </string>
+    <string name="updatestr">Update</string>
+    <string name="title_activity_home">DashBoard</string>
+    <string name="translatefrom">"Translate From "</string>
+    <string name="defaultLanguage">Default Language</string>
+    <string name="to">TO</string>
+    <string name="propose_lang">Propose language</string>
+    <string name="langueOption1">Target Language </string>
+    <string name="action_langtheme">Themes</string>
+    <string name="action_available">Languages</string>
+    <string name="action_editlang">Edit</string>
+    <string name="action_langforums">Forums</string>
+    <string name="action_appshare">Share</string>
+    <string name="title_activity_languages">Languages Available</string>
+    <string name="availablelanguages">Below is a list of available languages you may add to your app</string>
+    <string name="title_activity_edit_language">EditLanguage</string>
+    <string name="save"> Save </string>
+    <string name="welcome_text">Welcome,  </string>
+    <string name="plus_generic_error">Sign in with Google is not available.</string>
+    <string name="title_activity_chat">Discussions</string>
+    <string name="hello_world">Welcome</string>
+    <string name="discussions_title">Discussions trending</string>
+    <string name="discussion_add">Create Discussion</string>
+    <string name="share_text">Awesome App. Start speaking your local language now!<br><a href="www.icetech.webege.com/noslangues.apk">Download HERE </a></br></string>
+    <string name="share_title">Share NosLangues</string>
+    <string name="err_lang_unsupported">This Language is not supported</string>
+    <string name="about_text">NosLangues Version 0.5<br />
+         Developers: IceTech Corp Inc<br/>
+         Site: www.icetech.com<br/>
+          Email: larryakah@gmail.com</string>
+
+    <string-array name="lang_local">
+        <item name="En-en">English</item>
+        <item name="Fr-fr">Francais</item>
+        <item name="Ba-baf">Bafut</item>
+        <item name="Bt-bt">Beti</item>
+    </string-array>
+    <string-array name="theme_local">
+        <item name="blue">BLUE</item>
+        <item name="red">RED</item>
+        <item name="green">GREEN</item>
+        <item name="teal">TEAL</item>
+    </string-array>
+    
+    <string name="lang">Language</string>
+    <string name="date">DATE</string>
+    <string name="title_activity_comments">Comments/Critics</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_chat">Create Discussion</string>
+    <string name="lang_select">Pick a Language</string>
+    <string name="title_activity_profile_settings">Profile Settings</string>
+    <string name="submitd">Submit</string>
+    <string name="theme_text">Choose a theme</string>
+    <string name="desc">Language Description</string>
+
+</resources>

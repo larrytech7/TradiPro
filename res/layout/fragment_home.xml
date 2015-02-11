@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0976B9"
+        android:orientation="vertical"
+        android:padding="8dp"
+        tools:context="com.icetech.tradipro.HomeActivity$PlaceholderFragment" >
+
+        <TextView
+            android:id="@+id/welcomeTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/translatefrom"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/langueOriginTextview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoLink="web|email|phone"
+                android:background="#ddd"
+                android:drawableRight="@android:drawable/sym_action_chat"
+                android:ems="10"
+                android:hint="@string/defaultLanguage"
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+                android:minLines="5"
+                android:scrollbarStyle="outsideOverlay"
+                android:textColor="#000" >
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/img_speakorigin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:contentDescription="@string/share_text"
+                android:src="@drawable/ic_speak" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/to"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/targetLanguageTextview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoLink="web|email|phone"
+                android:background="#ddd"
+                android:drawableRight="@android:drawable/sym_action_chat"
+                android:ems="10"
+                android:hint="@string/langueOption1"
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+                android:minLines="5"
+                android:scrollbarStyle="outsideOverlay"
+                android:textColor="#000" >
+
+            </EditText>
+            
+
+            <ImageView
+                android:id="@+id/img_speakprimary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:contentDescription="@string/share_text"
+                android:src="@drawable/ic_speak" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/targetLanguageTextview2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:autoLink="web|email|phone"
+                android:background="#ddd"
+                android:drawableRight="@android:drawable/sym_action_chat"
+                android:ems="10"
+                android:hint="@string/langueOption1"
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+                android:minLines="5"
+                android:scrollbarStyle="outsideOverlay"
+                android:textColor="#000" >
+
+            </EditText>
+            
+
+            <ImageView
+                android:id="@+id/img_speaksecondary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0"
+                android:contentDescription="@string/share_text"
+                android:src="@drawable/ic_speak" />
+
+        </LinearLayout>
+
+        <!-- <EditText
+            android:id="@+id/targetLanguageTextview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ddd"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/langueOption1"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:scrollbarStyle="insideOverlay"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/targetLanguageTextview2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#ddd"
+            android:clickable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:hint="@string/langueOption1"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:scrollbarStyle="insideOverlay"
+            android:textColor="#000" /> -->
+
+    </LinearLayout>
+
+</ScrollView>

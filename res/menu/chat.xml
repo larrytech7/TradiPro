@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.icetech.tradipro.ChatActivity" >
+
+    <item
+        android:id="@+id/action_new_chat"
+        android:orderInCategory="100"
+        android:title="@string/discussion_add"
+        android:icon="@android:drawable/ic_input_add"
+       android:showAsAction="always|withText"/>
+
+</menu>
